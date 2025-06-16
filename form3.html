@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+      body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.form-container {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(144, 138, 138, 0.1);
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color:gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    width: 200px;
+}
+
+.button.green {
+    background-color: #5cb85c;
+}
+
+.signup-form h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #4cae4c;
+}
+input{
+    background: transparent;
+    
+}
+.items{
+ display: flex;
+ border: 1px solid white;
+ margin-bottom: 10px;
+ justify-content: space-between;
+}
+
+
+    </style>
+</head>
+    <body>
+        <div class="form-container">
+            <div class="form-header">
+                <button class="button green">Sign Up</button>
+                <button class="button">Log In</button>
+            </div>
+            <form class="signup-form">
+                <h2>Sign Up for Free</h2>
+
+                    <div class="items">
+                        <input type="text" placeholder="First Name" class="i1">
+                        
+                            <input type="text" placeholder="Last Name" >
+                        </div>
+                        <div class="items">
+                            <input type="email" placeholder="Email Address" >
+                        </div>
+                        
+                        <div class="items">
+                            <input type="password" placeholder="Set A Password">
+                        </div>
+                <button type="submit" class="submit-button">Get Started</button>
+            </form>
+        </div>
+</body>
+</html>

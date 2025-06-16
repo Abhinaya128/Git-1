@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color:aqua;
+            color: black;
+            width: 130px;
+            text-align: center;
+            height: 20px;
+            padding: 20px;
+           
+
+        }
+        .child{
+            display: none;
+            position: absolute;
+            
+        
+        }
+        .container:hover .child{
+            display:block;
+            background-color: pink;
+            padding: 20px;
+            margin-top: 20px;
+            
+            
+        }
+        a{
+          text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span>global</span>
+    <div class="child">
+        <a href="">united state</a><br><br>
+        <a href="">united kingdom</a>
+    </div>
+    </div>
+</body>
+</html>

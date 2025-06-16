@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        fieldset{
+            background-color: aqua;
+        }
+        legend{
+            border-radius: 10px 0px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        button{
+            margin-left: 10px;
+        }
+        button:hover{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Student info</legend>
+            <table width="100%">
+                <tr >
+                    <td><label for="">Student name</label></td>
+                    <td><input type="text" placeholder="enter stu name"></td>
+                    <td><label for="">Father name</label></td>
+                    <td><input type="text" placeholder="enter father name"></td>
+                    <td><label for="">Mother name</label></td>
+                    <td><input type="text" placeholder="enter mother name"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Date of Birth</label></td>
+                    <td><input type="date" ></td>
+                </tr>
+                <tr>
+                    <td><label for="">Phone number</label></td>
+                    <td><input type="email" placeholder="enter email" ></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td>
+                        <input type="radio" name="radio">male
+                    <input type="radio" name="radio">female
+                    <input type="radio" name="radio">others
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Languages</label></td>
+                    <td>
+                        <input type="checkbox">telugu <br>
+                    <input type="checkbox">english <br>
+                    <input type="checkbox">hindi <br>
+                    <input type="checkbox">tamil <br>
+                     <input type="checkbox">kannada <br>
+                    <input type="checkbox">tamil
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="">Address</label></td>
+                    <td>
+                    <textarea name="" id=""></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="">State</label></td>
+                   <td>
+                    <select>
+                        <option value="">select</option>
+                        <option value="">Andhra pradesh</option>
+                        <option value="">Karnataka</option>
+                        <option value="">Tamilnadu</option>
+                        <option value="">Odisha</option>
+                        <option value="">Telangana</option>
+                    </select>
+                   </td>
+                </tr>
+                <tr>
+                    <td><label for="">choose file</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr >
+                    <td colspan="6" align="center"><button>submit</button><button>Reset</button></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
